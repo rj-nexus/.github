@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/banner.svg" alt="RJ Nexus" width="100%"/>
+<img src="https://github.com/rj-nexus/.github/blob/main/assets/banner.svg" alt="RJ Nexus" width="100%"/>
 
 <br/>
 
@@ -8,7 +8,7 @@
 
 </div>
 
-<img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/divider.svg" alt="" width="100%"/>
+<img src="https://github.com/rj-nexus/.github/blob/main/assets/divider.svg" alt="" width="100%"/>
 
 ## About RJ Nexus
 
@@ -23,34 +23,34 @@ RJ CMS is a modern, self-hosted content management system built on **Laravel 12*
 <table>
   <tr>
     <td width="33%" valign="top">
-      <img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/icon-plugins.svg" alt="" width="48" height="48"/>
+      <img src="https://github.com/rj-nexus/.github/blob/main/assets/icon-plugins.svg" alt="" width="48" height="48"/>
       <h4>Plugins</h4>
       Isolated extensions with their own routes, views, migrations, and assets. Updates are delivered through GitHub.
     </td>
     <td width="33%" valign="top">
-      <img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/icon-themes.svg" alt="" width="48" height="48"/>
+      <img src="https://github.com/rj-nexus/.github/blob/main/assets/icon-themes.svg" alt="" width="48" height="48"/>
       <h4>Themes</h4>
       Builder-first themes with custom page templates, child themes, and dynamic asset injection.
     </td>
     <td width="33%" valign="top">
-      <img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/icon-widgets.svg" alt="" width="48" height="48"/>
+      <img src="https://github.com/rj-nexus/.github/blob/main/assets/icon-widgets.svg" alt="" width="48" height="48"/>
       <h4>Widgets</h4>
       Building blocks for RJBuilder, the drag-and-drop page builder with responsive controls and nested containers.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/icon-ai.svg" alt="" width="48" height="48"/>
+      <img src="https://github.com/rj-nexus/.github/blob/main/assets/icon-ai.svg" alt="" width="48" height="48"/>
       <h4>AI tools</h4>
       Integrations built on the OpenRouter-powered AI layer: SEO generation, translation, writing, and layout suggestions.
     </td>
     <td width="33%" valign="top">
-      <img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/icon-docs.svg" alt="" width="48" height="48"/>
+      <img src="https://github.com/rj-nexus/.github/blob/main/assets/icon-docs.svg" alt="" width="48" height="48"/>
       <h4>Documentation</h4>
       Guides and references for building plugins and themes on top of RJ CMS.
     </td>
     <td width="33%" valign="top">
-      <img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/icon-contribute.svg" alt="" width="48" height="48"/>
+      <img src="https://github.com/rj-nexus/.github/blob/main/assets/icon-contribute.svg" alt="" width="48" height="48"/>
       <h4>Community</h4>
       Open issues, pull requests, and feedback from everyone building with RJ CMS.
     </td>
@@ -99,7 +99,7 @@ Contributions of every size are welcome, from bug reports to whole new plugins a
 
 Want your plugin or theme listed here? Open an issue in [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus/issues) with the repository link and a short description.
 
-<img src="https://github.com/rj-nexus/.github/blob/main/main/profile/assets/divider.svg" alt="" width="100%"/>
+<img src="https://github.com/rj-nexus/.github/blob/main/assets/divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
