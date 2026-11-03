@@ -18,7 +18,7 @@ RJ CMS is a modern, self-hosted content management system built on **Laravel 12*
 
 It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widgets**, a dual AI engine, 17 languages with per-language URLs, and a browser-based installer that works on any shared hosting or VPS.
 
-> **Latest release.** RJ CORE 1 (v1.8.2) is the first official stable release of RJ CMS. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
+> **Latest release.** RJ CORE 1 (v1.8.3) is the first official stable release of RJ CMS. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
 
 ## What we publish
 
@@ -53,7 +53,7 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
 
 | Package | Type | Status | Repository |
 |---------|------|--------|------------|
-| RJ CMS | Core | `v1.8.2`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
+| RJ CMS | Core | `v1.8.3`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
 | Form Builder | Plugin | `v1.1.0`, under testing | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
 | All themes & plugins | Catalog | Updated regularly | [rj_cms_theme_and_plugin_list](https://github.com/rj-nexus/rj_cms_theme_and_plugin_list) |
 
