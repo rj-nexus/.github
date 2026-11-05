@@ -4,7 +4,7 @@
 
 <br/>
 
-[Website](https://rjnexus.org) &nbsp;|&nbsp; [RJ CMS Core](https://github.com/rj-nexus/rj-nexus) &nbsp;|&nbsp; [Themes & Plugins](https://github.com/rj-nexus/rj_cms_theme_and_plugin_list) &nbsp;|&nbsp; [Discussions](https://github.com/orgs/rj-nexus/discussions) &nbsp;|&nbsp; [Contribute](#contributing)
+[Website](https://rjnexus.org) &nbsp;|&nbsp; [RJ CMS Core](https://github.com/rj-nexus/rj-nexus) &nbsp;|&nbsp; [Themes & Plugins](https://github.com/rj-nexus/rj-registration) &nbsp;|&nbsp; [Discussions](https://github.com/orgs/rj-nexus/discussions) &nbsp;|&nbsp; [Contribute](#contributing)
 
 </div>
 
