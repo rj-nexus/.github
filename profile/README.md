@@ -26,8 +26,8 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
   <tr>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/themes.svg" alt="" width="48" height="48"/>
-      <h4><a href="https://github.com/rj-nexus/rj_cms_theme_and_plugin_list">Themes & Plugins</a></h4>
-      Isolated extensions with their own routes, views, migrations, and assets. Browse the full catalog in the <a href="https://github.com/rj-nexus/rj_cms_theme_and_plugin_list">Themes & Plugins list</a>.
+      <h4><a href="https://github.com/rj-nexus/rj-registration">Themes & Plugins</a></h4>
+      Isolated extensions with their own routes, views, migrations, and assets. Browse the full catalog in the <a href="https://github.com/rj-nexus/rj-registration">Themes & Plugins list</a>.
     </td>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/ai.svg" alt="" width="48" height="48"/>
@@ -55,7 +55,7 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
 |---------|------|--------|------------|
 | RJ CMS | Core | `v1.8.3`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
 | Form Builder | Plugin | `v1.1.0`, under testing | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
-| All themes & plugins | Catalog | Updated regularly | [rj_cms_theme_and_plugin_list](https://github.com/rj-nexus/rj_cms_theme_and_plugin_list) |
+| All themes & plugins | Catalog | Updated regularly | [rj-registration](https://github.com/rj-nexus/rj-registration) |
 
 ## Supported Languages
 
