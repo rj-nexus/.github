@@ -16,9 +16,9 @@ RJ Nexus is the home of **RJ CMS** and its growing ecosystem. This organization 
 
 RJ CMS is a modern, self-hosted content management system built on **Laravel 12**. It is modular by design: plugins and themes are fully isolated from the core, so they can be installed, updated, and removed without touching it. You run it on your own server and keep full ownership of your data.
 
-It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widgets**, a dual AI engine, 17 languages with per-language URLs, and a browser-based installer that works on any shared hosting or VPS.
+It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widgets**, a dual AI engine, 38 languages with per-language URLs, and a browser-based installer that works on any shared hosting or VPS.
 
-> **Latest release.** RJ CORE 1 (v1.8.3) is the first official stable release of RJ CMS. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
+> **Latest release.** RJ CMS v1.9.1 (RJ CORE 1) expands language support from 17 to 38 languages. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
 
 ## What we publish
 
@@ -53,7 +53,7 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
 
 | Package | Type | Status | Repository |
 |---------|------|--------|------------|
-| RJ CMS | Core | `v1.8.3`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
+| RJ CMS | Core | `v1.9.1`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
 | Form Builder | Plugin | `v1.1.0`, under testing | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
 | All themes & plugins | Catalog | Updated regularly | [rj-registration](https://github.com/rj-nexus/rj-registration) |
 
@@ -69,19 +69,51 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
     <td align="center" width="16%"><img src="https://flagcdn.com/pt.svg" width="32" alt="PT"/><br/>Portuguese<br/><code>pt</code></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://flagcdn.com/ru.svg" width="32" alt="RU"/><br/>Russian<br/><code>ru</code></td>
-    <td align="center"><img src="https://flagcdn.com/tr.svg" width="32" alt="TR"/><br/>Turkish<br/><code>tr</code></td>
-    <td align="center"><img src="https://flagcdn.com/in.svg" width="32" alt="HI"/><br/>Hindi<br/><code>hi</code></td>
-    <td align="center"><img src="https://flagcdn.com/cn.svg" width="32" alt="ZH"/><br/>Chinese<br/><code>zh</code></td>
-    <td align="center"><img src="https://flagcdn.com/jp.svg" width="32" alt="JA"/><br/>Japanese<br/><code>ja</code></td>
-    <td align="center"><img src="https://flagcdn.com/id.svg" width="32" alt="ID"/><br/>Indonesian<br/><code>id</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ru.svg" width="32" alt="RU"/><br/>Russian<br/><code>ru</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/tr.svg" width="32" alt="TR"/><br/>Turkish<br/><code>tr</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="HI"/><br/>Hindi<br/><code>hi</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/cn.svg" width="32" alt="ZH"/><br/>Chinese<br/><code>zh</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/jp.svg" width="32" alt="JA"/><br/>Japanese<br/><code>ja</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/id.svg" width="32" alt="ID"/><br/>Indonesian<br/><code>id</code></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://flagcdn.com/sa.svg" width="32" alt="AR"/><br/>Arabic<br/><code>ar</code></td>
-    <td align="center"><img src="https://flagcdn.com/it.svg" width="32" alt="IT"/><br/>Italian<br/><code>it</code></td>
-    <td align="center"><img src="https://flagcdn.com/nl.svg" width="32" alt="NL"/><br/>Dutch<br/><code>nl</code></td>
-    <td align="center"><img src="https://flagcdn.com/am.svg" width="32" alt="HY"/><br/>Armenian<br/><code>hy</code></td>
-    <td align="center"><img src="https://flagcdn.com/ge.svg" width="32" alt="KA"/><br/>Georgian<br/><code>ka</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/sa.svg" width="32" alt="AR"/><br/>Arabic<br/><code>ar</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/it.svg" width="32" alt="IT"/><br/>Italian<br/><code>it</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/nl.svg" width="32" alt="NL"/><br/>Dutch<br/><code>nl</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/am.svg" width="32" alt="HY"/><br/>Armenian<br/><code>hy</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ge.svg" width="32" alt="KA"/><br/>Georgian<br/><code>ka</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/bd.svg" width="32" alt="BN"/><br/>Bengali<br/><code>bn</code></td>
+  </tr>
+  <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ir.svg" width="32" alt="FA"/><br/>Persian<br/><code>fa</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ng.svg" width="32" alt="HA"/><br/>Hausa<br/><code>ha</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ht.svg" width="32" alt="HT"/><br/>Haitian Creole<br/><code>ht</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/hu.svg" width="32" alt="HU"/><br/>Hungarian<br/><code>hu</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/kz.svg" width="32" alt="KK"/><br/>Kazakh<br/><code>kk</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/kr.svg" width="32" alt="KO"/><br/>Korean<br/><code>ko</code></td>
+  </tr>
+  <tr>
+    <td align="center" width="16%"><b>❓</b><br/>Kurdish<br/><code>ku</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/kg.svg" width="32" alt="KY"/><br/>Kyrgyz<br/><code>ky</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/nz.svg" width="32" alt="MI"/><br/>Maori<br/><code>mi</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="MR"/><br/>Marathi<br/><code>mr</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/pl.svg" width="32" alt="PL"/><br/>Polish<br/><code>pl</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/pe.svg" width="32" alt="QU"/><br/>Quechua<br/><code>qu</code></td>
+  </tr>
+  <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ro.svg" width="32" alt="RO"/><br/>Romanian<br/><code>ro</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ke.svg" width="32" alt="SW"/><br/>Swahili<br/><code>sw</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="TE"/><br/>Telugu<br/><code>te</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ph.svg" width="32" alt="TL"/><br/>Tagalog<br/><code>tl</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ua.svg" width="32" alt="UK"/><br/>Ukrainian<br/><code>uk</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/pk.svg" width="32" alt="UR"/><br/>Urdu<br/><code>ur</code></td>
+  </tr>
+  <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/uz.svg" width="32" alt="UZ"/><br/>Uzbek<br/><code>uz</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/vn.svg" width="32" alt="VI"/><br/>Vietnamese<br/><code>vi</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
     <td align="center"></td>
   </tr>
 </table>
