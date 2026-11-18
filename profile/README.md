@@ -16,9 +16,9 @@ RJ Nexus is the home of **RJ CMS** and its growing ecosystem. This organization 
 
 RJ CMS is a modern, self-hosted content management system built on **Laravel 12**. It is modular by design: plugins and themes are fully isolated from the core, so they can be installed, updated, and removed without touching it. You run it on your own server and keep full ownership of your data.
 
-It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widgets**, a dual AI engine, 38 languages with per-language URLs, and a browser-based installer that works on any shared hosting or VPS.
+It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widgets**, a dual AI engine, 43 languages with per-language URLs, and a browser-based installer that works on any shared hosting or VPS.
 
-> **Latest release.** RJ CMS v1.9.6 (RJ CORE 1) expands language support from 17 to 38 languages. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
+> **Latest release.** RJ CMS v1.9.7 (RJ CORE 1) adds one-click backup restore with live progress, installs and backs up on restrictive shared hosting without `exec()` or `proc_open`, and expands language support from 38 to 43 languages. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
 
 ## What we publish
 
@@ -53,11 +53,13 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
 
 | Package | Type | Status | Repository |
 |---------|------|--------|------------|
-| RJ CMS | Core | `v1.9.6`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
+| RJ CMS | Core | `v1.9.7`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
 | Form Builder | Plugin | `v1.1.0`, under testing | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
 | All themes & plugins | Catalog | Updated regularly | [rj-registration](https://github.com/rj-nexus/rj-registration) |
 
 ## Supported Languages
+
+43 languages are supported, including per-language URLs (for example `/en/about` and `/az/haqqimizda`).
 
 <table>
   <tr>
@@ -111,6 +113,14 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
   <tr>
     <td align="center" width="16%"><img src="https://flagcdn.com/uz.svg" width="32" alt="UZ"/><br/>Uzbek<br/><code>uz</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/vn.svg" width="32" alt="VI"/><br/>Vietnamese<br/><code>vi</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/th.svg" width="32" alt="TH"/><br/>Thai<br/><code>th</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/il.svg" width="32" alt="HE"/><br/>Hebrew<br/><code>he</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/se.svg" width="32" alt="SV"/><br/>Swedish<br/><code>sv</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ee.svg" width="32" alt="ET"/><br/>Estonian<br/><code>et</code></td>
+  </tr>
+  <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/rw.svg" width="32" alt="RW"/><br/>Kinyarwanda<br/><code>rw</code></td>
+    <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
