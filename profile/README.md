@@ -54,7 +54,7 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
 | Package | Type | Status | Repository |
 |---------|------|--------|------------|
 | RJ CMS | Core | `v1.9.9`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
-| Form Builder | Plugin | `v1.1.0`, under testing | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
+| Form Builder | Plugin | stable | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
 | All themes & plugins | Catalog | Updated regularly | [rj-registration](https://github.com/rj-nexus/rj-registration) |
 
 ## Supported Languages
