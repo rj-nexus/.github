@@ -4,7 +4,7 @@
 
 <br/>
 
-[Website](https://rjnexus.org) &nbsp;|&nbsp; [RJ CMS Core](https://github.com/rj-nexus/rj-nexus) &nbsp;|&nbsp; [Themes & Plugins](https://github.com/rj-nexus/rj-registration) &nbsp;|&nbsp; [Discussions](https://github.com/orgs/rj-nexus/discussions) &nbsp;|&nbsp; [Contribute](#contributing)
+[Website](https://rjnexus.org) &nbsp;|&nbsp; [RJ CMS Core](https://github.com/rj-nexus/rj-nexus) &nbsp;|&nbsp; [Live Demo](#live-demo) &nbsp;|&nbsp; [Themes & Plugins](https://github.com/rj-nexus/rj-registration) &nbsp;|&nbsp; [Discussions](https://github.com/orgs/rj-nexus/discussions) &nbsp;|&nbsp; [Contribute](#contributing)
 
 </div>
 
@@ -16,26 +16,51 @@ RJ Nexus is the home of **RJ CMS** and its growing ecosystem. This organization 
 
 RJ CMS is a modern, self-hosted content management system built on **Laravel 12**. It is modular by design: plugins and themes are fully isolated from the core, so they can be installed, updated, and removed without touching it. You run it on your own server and keep full ownership of your data.
 
-It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widgets**, a dual AI engine, **47 languages** with per-language URLs, a **two-layer caching system** (Response Cache + LiteSpeed LSCache), and a browser-based installer that works on any shared hosting or VPS.
+It ships with **RJBuilder**, a visual drag-and-drop page builder with **80+ widgets**, a dual AI engine, **51 languages** with per-language URLs, a **two-layer caching system** (Response Cache + LiteSpeed LSCache), and a browser-based installer that works on any shared hosting or VPS.
 
-> **Latest release.** RJ CMS v1.10.0 (RJ CORE 1) adds a two-layer caching system built on `laravel-responsecache` and `litespeed/lscache-laravel`, and grows the language catalog to 47 with Czech, Greek and Brazilian Portuguese (alongside Amharic). It also gives the 504 error page its own animated design and adds four new admin color presets (Cyan, Pink, Red and Copper & Mint). See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
+> **Latest release.** RJ CMS v1.11.1 (RJ CORE 1) grows RJBuilder to 80+ widgets with new culture and holiday calendars (Islamic, Jewish, Christian, Chinese and Hindu), calculators, age gates, a video stories carousel, a Bento grid, Markdown text and an in-page PDF reader. The media picker now supports PDF upload and many more file types, and the language catalog grows to 51 with Traditional Chinese, Malay, Tamil and Danish. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
 
-## Highlights in v1.10.0
+## Highlights in v1.11.1
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/cache.svg" alt="" width="48" height="48"/>
-      <h4>Two-layer caching</h4>
-      <a href="https://github.com/spatie/laravel-responsecache"><code>laravel-responsecache</code></a> stores full application responses on any hosting, while <a href="https://github.com/litespeedtech/lscache-laravel"><code>litespeed/lscache-laravel</code></a> serves pages straight from the LiteSpeed server cache before PHP even starts.
+      <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/builder.svg" alt="" width="48" height="48"/>
+      <h4>RJBuilder: 80+ widgets</h4>
+      New widgets for <b>culture, religion and holidays</b> (Prayer Times, Shabbat Times, Christian, Chinese and Hindu festivals), <b>conversion and calculators</b> (Cost Calculator, Product Compare, Age Verification and Age Picker gates) and <b>media and content</b> (Video Stories Carousel, Bento Grid Showcase, Markdown Text, PDF Reader).
     </td>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/language.svg" alt="" width="48" height="48"/>
-      <h4>47 languages</h4>
-      Czech, Greek and Brazilian Portuguese join the catalog, bringing the total to <b>47</b> languages with per-language URLs and automatic RTL rendering.
+      <h4>4 new languages: 51 in total</h4>
+      <b>Traditional Chinese</b> (<code>zh_TW</code>), <b>Malay</b> (<code>ms</code>), <b>Tamil</b> (<code>ta</code>) and <b>Danish</b> (<code>da</code>) are now available in the core system and the installer, with their flags.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/modular.svg" alt="" width="48" height="48"/>
+      <h4>Media Picker: PDF and wider file support</h4>
+      PDF files can now be uploaded straight from the media picker. It also supports many more video, audio, image and document formats, with separate <b>PDF</b> and <b>Archive</b> filters.
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/activity.svg" alt="" width="48" height="48"/>
+      <h4>Widget registration fix</h4>
+      <code>IconBoxWidget</code>, <code>ImageBoxWidget</code> and <code>AdvancedSearchWidget</code> were missing from the widget list because they were not registered. They now appear in RJBuilder.
     </td>
   </tr>
 </table>
+
+## Live Demo
+
+You can try RJ Nexus in the demo below.
+
+> **Note:** The demo site may not run the latest version (v1.11.1) at the moment. It is provided only to give you an idea of how RJ Nexus looks and works.
+
+| | | |
+|:-:|---|---|
+| <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/update-1.11.1/globe.svg" width="20" height="20" alt="" /> | **Demo site** | [rj-nexus.onrender.com](https://rj-nexus.onrender.com) |
+| <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/update-1.11.1/layers.svg" width="20" height="20" alt="" /> | **Admin panel** | Add `/admin` to the end of the demo URL: [rj-nexus.onrender.com/admin](https://rj-nexus.onrender.com/admin) |
+| <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/update-1.11.1/file-text.svg" width="20" height="20" alt="" /> | **Email** | `admin@admin.com` |
+| <img src="https://raw.githubusercontent.com/rj-nexus/rj-nexus.github.io/main/assets/svg/update-1.11.1/file.svg" width="20" height="20" alt="" /> | **Password** | `admin123` |
 
 ## What we publish
 
@@ -70,13 +95,13 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
 
 | Package | Type | Status | Repository |
 |---------|------|--------|------------|
-| RJ CMS | Core | `v1.10.0`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
+| RJ CMS | Core | `v1.11.1`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
 | Form Builder | Plugin | stable | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
 | All themes & plugins | Catalog | Updated regularly | [rj-registration](https://github.com/rj-nexus/rj-registration) |
 
 ## Supported Languages
 
-47 languages are supported, including per-language URLs (for example `/en/about` and `/az/haqqimizda`).
+51 languages are supported, including per-language URLs (for example `/en/about` and `/az/haqqimizda`).
 
 <table>
   <tr>
@@ -85,62 +110,70 @@ It ships with **RJBuilder**, a visual drag-and-drop page builder with **60+ widg
     <td align="center" width="16%"><img src="https://flagcdn.com/am.svg" width="32" alt="HY"/><br/>Armenian<br/><code>hy</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/az.svg" width="32" alt="AZ"/><br/>Azerbaijani<br/><code>az</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/bd.svg" width="32" alt="BN"/><br/>Bengali<br/><code>bn</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/cn.svg" width="32" alt="ZH"/><br/>Chinese<br/><code>zh</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/cn.svg" width="32" alt="ZH"/><br/>Chinese (Simplified)<br/><code>zh</code></td>
   </tr>
   <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/tw.svg" width="32" alt="ZH-TW"/><br/>Chinese (Traditional) <b>NEW</b><br/><code>zh_TW</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/cz.svg" width="32" alt="CS"/><br/>Czech<br/><code>cs</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/dk.svg" width="32" alt="DA"/><br/>Danish <b>NEW</b><br/><code>da</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/nl.svg" width="32" alt="NL"/><br/>Dutch<br/><code>nl</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/gb.svg" width="32" alt="EN"/><br/>English<br/><code>en</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ee.svg" width="32" alt="ET"/><br/>Estonian<br/><code>et</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/fr.svg" width="32" alt="FR"/><br/>French<br/><code>fr</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/ge.svg" width="32" alt="KA"/><br/>Georgian<br/><code>ka</code></td>
   </tr>
   <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/fr.svg" width="32" alt="FR"/><br/>French<br/><code>fr</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ge.svg" width="32" alt="KA"/><br/>Georgian<br/><code>ka</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/de.svg" width="32" alt="DE"/><br/>German<br/><code>de</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/gr.svg" width="32" alt="EL"/><br/>Greek<br/><code>el</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ht.svg" width="32" alt="HT"/><br/>Haitian Creole<br/><code>ht</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ng.svg" width="32" alt="HA"/><br/>Hausa<br/><code>ha</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/il.svg" width="32" alt="HE"/><br/>Hebrew<br/><code>he</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="HI"/><br/>Hindi<br/><code>hi</code></td>
   </tr>
   <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/il.svg" width="32" alt="HE"/><br/>Hebrew<br/><code>he</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="HI"/><br/>Hindi<br/><code>hi</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/hu.svg" width="32" alt="HU"/><br/>Hungarian<br/><code>hu</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/id.svg" width="32" alt="ID"/><br/>Indonesian<br/><code>id</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/it.svg" width="32" alt="IT"/><br/>Italian<br/><code>it</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/jp.svg" width="32" alt="JA"/><br/>Japanese<br/><code>ja</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/kz.svg" width="32" alt="KK"/><br/>Kazakh<br/><code>kk</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/rw.svg" width="32" alt="RW"/><br/>Kinyarwanda<br/><code>rw</code></td>
   </tr>
   <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/kz.svg" width="32" alt="KK"/><br/>Kazakh<br/><code>kk</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/rw.svg" width="32" alt="RW"/><br/>Kinyarwanda<br/><code>rw</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/kr.svg" width="32" alt="KO"/><br/>Korean<br/><code>ko</code></td>
     <td align="center" width="16%"><b>KU</b><br/>Kurdish<br/><code>ku</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/kg.svg" width="32" alt="KY"/><br/>Kyrgyz<br/><code>ky</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/my.svg" width="32" alt="MS"/><br/>Malay <b>NEW</b><br/><code>ms</code></td>
+  </tr>
+  <tr>
     <td align="center" width="16%"><img src="https://flagcdn.com/nz.svg" width="32" alt="MI"/><br/>Maori<br/><code>mi</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="MR"/><br/>Marathi<br/><code>mr</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ir.svg" width="32" alt="FA"/><br/>Persian<br/><code>fa</code></td>
-  </tr>
-  <tr>
     <td align="center" width="16%"><img src="https://flagcdn.com/pl.svg" width="32" alt="PL"/><br/>Polish<br/><code>pl</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/pt.svg" width="32" alt="PT"/><br/>Portuguese<br/><code>pt</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/br.svg" width="32" alt="PT-BR"/><br/>Portuguese (Brazil)<br/><code>pt_BR</code></td>
+  </tr>
+  <tr>
     <td align="center" width="16%"><img src="https://flagcdn.com/pe.svg" width="32" alt="QU"/><br/>Quechua<br/><code>qu</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ro.svg" width="32" alt="RO"/><br/>Romanian<br/><code>ro</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ru.svg" width="32" alt="RU"/><br/>Russian<br/><code>ru</code></td>
-  </tr>
-  <tr>
     <td align="center" width="16%"><img src="https://flagcdn.com/es.svg" width="32" alt="ES"/><br/>Spanish<br/><code>es</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ke.svg" width="32" alt="SW"/><br/>Swahili<br/><code>sw</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/se.svg" width="32" alt="SV"/><br/>Swedish<br/><code>sv</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/ph.svg" width="32" alt="TL"/><br/>Tagalog<br/><code>tl</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="TE"/><br/>Telugu<br/><code>te</code></td>
-    <td align="center" width="16%"><img src="https://flagcdn.com/th.svg" width="32" alt="TH"/><br/>Thai<br/><code>th</code></td>
   </tr>
   <tr>
+    <td align="center" width="16%"><img src="https://flagcdn.com/ph.svg" width="32" alt="TL"/><br/>Tagalog<br/><code>tl</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="TA"/><br/>Tamil <b>NEW</b><br/><code>ta</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/in.svg" width="32" alt="TE"/><br/>Telugu<br/><code>te</code></td>
+    <td align="center" width="16%"><img src="https://flagcdn.com/th.svg" width="32" alt="TH"/><br/>Thai<br/><code>th</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/tr.svg" width="32" alt="TR"/><br/>Turkish<br/><code>tr</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/ua.svg" width="32" alt="UK"/><br/>Ukrainian<br/><code>uk</code></td>
+  </tr>
+  <tr>
     <td align="center" width="16%"><img src="https://flagcdn.com/pk.svg" width="32" alt="UR"/><br/>Urdu<br/><code>ur</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/uz.svg" width="32" alt="UZ"/><br/>Uzbek<br/><code>uz</code></td>
     <td align="center" width="16%"><img src="https://flagcdn.com/vn.svg" width="32" alt="VI"/><br/>Vietnamese<br/><code>vi</code></td>
+    <td align="center"></td>
+    <td align="center"></td>
     <td align="center"></td>
   </tr>
 </table>
