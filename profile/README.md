@@ -18,9 +18,9 @@ RJ CMS is a modern, self-hosted content management system built on **Laravel 12*
 
 It ships with **RJBuilder**, a visual drag-and-drop page builder with **80+ widgets**, a built-in **Marketing Post Generator**, a dual AI engine, **55 languages** with per-language URLs, a **two-layer caching system** (Response Cache + LiteSpeed LSCache), and a browser-based installer that works on any shared hosting or VPS.
 
-> **Latest release.** RJ CMS v1.12.0 (RJ CORE 1) introduces the Marketing Post Generator, a built-in design studio that turns your posts into ready-to-share graphics. It also adds Quick Edit for posts and pages, browser notifications with 20+ sounds, and four new languages (Norwegian, Finnish, Bulgarian and Serbian), bringing the total to 55. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
+> **Latest release.** RJ CMS v1.12.1 (RJ CORE 1) introduces the Marketing Post Generator, a built-in design studio that turns your posts into ready-to-share graphics. It also adds Quick Edit for posts and pages, browser notifications with 20+ sounds, and four new languages (Norwegian, Finnish, Bulgarian and Serbian), bringing the total to 55. See the [Changelog](https://github.com/rj-nexus/rj-nexus/blob/main/CHANGELOG.md) for details.
 
-## Highlights in v1.12.0
+## Highlights in v1.12.1
 
 <table>
   <tr>
@@ -95,7 +95,7 @@ You can try RJ Nexus in the demo below.
 
 | Package | Type | Status | Repository |
 |---------|------|--------|------------|
-| RJ CMS | Core | `v1.12.0`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
+| RJ CMS | Core | `v1.12.1`, stable | [rj-nexus/rj-nexus](https://github.com/rj-nexus/rj-nexus) |
 | Form Builder | Plugin | stable | [rj-plugin-form-builder](https://github.com/mr-ruhid/rj-plugin-form-builder) |
 | All themes & plugins | Catalog | Updated regularly | [rj-registration](https://github.com/rj-nexus/rj-registration) |
 
